@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181818;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+header {
+  background-color: #111111;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+
+  nav {
+    position: relative;
+    right: 50px;
+    top: 30px;
+
+    .BotaoVermelho {
+      background-color: #df0712;
+      color: white;
+      font-size: large;
+      font-weight: bolder;
+      padding: 5px 30px 7px 30px;
+      border-radius: 10px;
+      font-family: "Inter", sans-serif;
+      margin-right: 25px;
+    }
+    .BotaoPreto {
+      background-color: #181818;
+      color: white;
+      font-size: large;
+      font-weight: bolder;
+      padding: 5px 20px 7px 20px;
+      border-radius: 10px;
+      border: solid 0.1px white;
+      font-family: "Inter", sans-serif;
+    }
+  }
+
+  img {
+    width: 20vh;
+  }
+}
+
+main {
+  padding: 50px 100px;
+  .Timmy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .TimmyTurner {
+    width: 14vh;
+    margin: 35px 0;
+  }
+
+  .Episodios {
+    display: flex;
+    justify-content: space-between;
+
+    h3{
+        font-size: 25px;
+        width: 45vh;
+        margin: 15px 0;
+    }
+    p {
+      width: 45vh;
+    }
+    img {
+      width: 45vh;
+    }
+  }
+
+  .TituloPrincipal {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .TituloSecundario {
+    font-size: 40px;
+  }
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #111111;
+    color: #fff;
+    padding: 30px;
+    margin-top: 50px;
+    a {
+        text-decoration: none;
+        color: white;
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    p{
+        font-size: 4px;
+        position: relative;
+        bottom: 10px;
+    }
+}
